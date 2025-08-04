@@ -1,7 +1,7 @@
 {
   "author": "harvest",
-  "name": "chosen",
-  "version": "1.8.7",
+  "name": "dash-chosen",
+  "version": "1.8.8",
   "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
   "keywords": [
     "select",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/harvesthq/chosen.git"
+    "url": "git+https://github.com/EricRho/dash-chosen"
   },
   "engines": {
     "node": ">=4"
@@ -42,26 +42,16 @@
     "simulant": "^0.2.2"
   },
   "contributors": [
-    {
-      "name": "Patrick Filler",
-      "url": "https://github.com/pfiller"
-    },
-    {
-      "name": "Christophe Coevoet",
-      "url": "https://github.com/stof"
-    },
-    {
-      "name": "Ken Earley",
-      "url": "https://github.com/kenearley"
-    },
-    {
-      "name": "Koen Punt",
-      "url": "https://github.com/koenpunt"
-    }
+    "Patrick Filler (https://github.com/pfiller)",
+    "Christophe Coevoet (https://github.com/stof)",
+    "Ken Earley (https://github.com/kenearley)",
+    "Koen Punt (https://github.com/koenpunt)"
   ],
   "license": "MIT",
   "homepage": "https://harvesthq.github.io/chosen/",
-  "bugs": "https://github.com/harvesthq/chosen/issues",
+  "bugs": {
+    "url": "https://github.com/harvesthq/chosen/issues"
+  },
   "_extra": {
     "title": "Chosen",
     "license": {
@@ -86,5 +76,6 @@
       "chosen-sprite@2x.png",
       "chosen-sprite.png"
     ]
-  }
+  },
+  "main": "index.js"
 }
