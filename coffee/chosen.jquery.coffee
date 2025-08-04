@@ -222,7 +222,7 @@ class Chosen extends AbstractChosen
       @result_highlight = el
       @result_highlight.addClass "highlighted"
 
-      maxHeight = parseInt @search_results.css("maxHeight"), 10
+    #   maxHeight = parseInt @search_results.css("maxHeight"), 10
       visible_top = @search_results.scrollTop()
       visible_bottom = maxHeight + visible_top
 
@@ -494,9 +494,9 @@ class Chosen extends AbstractChosen
     styles = ['fontSize', 'fontStyle', 'fontWeight', 'fontFamily', 'lineHeight', 'textTransform', 'letterSpacing']
 
     for style in styles
-      style_block[style] = @search_field.css(style)
+    #   style_block[style] = @search_field.css(style)
 
-    div = $('<div />').css(style_block)
+    # div = $('<div />').css(style_block)
     div.text this.get_search_field_value()
     $('body').append div
 
